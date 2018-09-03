@@ -2,6 +2,7 @@
 
 function find_last_even(collection) {
   //在这里写入代码
+  return collection.filter(x => x % 2 === 0).pop();
 }
 
 module.exports = find_last_even;
